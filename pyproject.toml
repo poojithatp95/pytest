@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myproj"
+version = "0.1.0"
+description = "A sample project for pytest demo"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["myproj"]

@@ -12,15 +12,14 @@ Quickstart
 	source .venv/bin/activate
 	```
 
-2. Install dependencies:
+2. Install dependencies and package in development mode:
 
-	```bash
-	pip install -r requirements.txt
-	```
+   ```bash
+   pip install -r requirements.txt
+   ```
+   This will install both pytest and the local package in development mode (-e .).
 
-3. Run tests:
-
-	```bash
+3. Run tests:	```bash
 	python -m pytest -q
 	```
 
